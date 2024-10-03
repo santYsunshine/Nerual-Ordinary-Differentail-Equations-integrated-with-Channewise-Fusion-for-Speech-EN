@@ -420,7 +420,7 @@ class MS_SL2_split_model(nn.Module):
                  R=1,
                  B=256,
                  Sc=256,
-                 Slice=2,
+                 Slice=1,
                  H=512,
                  P=3,
                  norm="gLN",
