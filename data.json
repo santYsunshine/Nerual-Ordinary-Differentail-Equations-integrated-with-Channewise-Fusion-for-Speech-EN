@@ -1,0 +1,19 @@
+{
+    "train": {
+        "mix_scp": "/media/speech70809/Data01/speech_donoiser_new/datasets/ner-300hr/tr/mix.scp",
+        "ref_scp": [
+            "/media/speech70809/Data01/speech_donoiser_new/datasets/ner-300hr/tr/spk1.scp",
+            "/media/speech70809/Data01/speech_donoiser_new/datasets/ner-300hr/tr/spk2.scp"
+        ],
+        "sample_rate": 16000
+    },
+    "dev": {
+        "mix_scp": "/media/speech70809/Data01/speech_donoiser_new/datasets/ner-300hr/cv/mix.scp",
+        "ref_scp": [
+            "/media/speech70809/Data01/speech_donoiser_new/datasets/ner-300hr/cv/spk1.scp",
+            "/media/speech70809/Data01/speech_donoiser_new/datasets/ner-300hr/cv/spk2.scp"
+        ],
+        "sample_rate": 16000
+    },
+    "chunk_size": 80000
+}
